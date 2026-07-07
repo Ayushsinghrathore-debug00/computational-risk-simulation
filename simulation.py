@@ -24,12 +24,12 @@ class EngineeringSystemsRiskDashboard:
         # --- DAY 1 ---
         print("[DAY 1]: Peace-Time Status Active. Everyday operations online.")
         self.daily_interbank_liquidity_optimized = True
-        print("🟢 [DAILY WORK - BANKS]: BFS-Engine running liquidity updates.")
+        print(" [DAILY WORK - BANKS]: BFS-Engine running liquidity updates.")
         self.daily_smart_city_traffic_saved_millions = random.randint(2, 5)
-        print(f"🟢 [DAILY WORK - GOVT]: CGOS traffic optimization saved ${self.daily_smart_city_traffic_saved_millions}M today.")
+        print(f" [DAILY WORK - GOVT]: CGOS traffic optimization saved ${self.daily_smart_city_traffic_saved_millions}M today.")
 
         # --- DAY 2 ---
-        print("\n⚡ [DAY 2]: CRITICAL ALERT! SEISMIC EARTHQUAKE & COORDINATED CYBER BLACKOUT HIT THE NATION! ⚡")
+        print("\n [DAY 2]: CRITICAL ALERT! SEISMIC EARTHQUAKE & COORDINATED CYBER BLACKOUT HIT THE NATION! ")
         self.seismic_event_confirmed = True
         self.infrastructure_blackout = True
         print("CRITICAL HARDWARE FAULT: Commercial Telecom Towers Offline.")
@@ -39,20 +39,20 @@ class EngineeringSystemsRiskDashboard:
         self.democratic_voting_integrity = 30.0
         panic_selling_multiplier = (self.public_panic_index * 0.40) + (100 - self.democratic_voting_integrity) * 0.25
         self.market_index -= panic_selling_multiplier
-        print(f"🧠 [BEHAVIORAL PSYCHOLOGY]: Public Panic Index spiked to {self.public_panic_index}/100.")
-        print(f"📉 [FINANCIAL CONTAGION]: Market Index crashed to {self.market_index:.2f}")
+        print(f" [BEHAVIORAL PSYCHOLOGY]: Public Panic Index spiked to {self.public_panic_index}/100.")
+        print(f"[FINANCIAL CONTAGION]: Market Index crashed to {self.market_index:.2f}")
 
         # --- DAY 4 ---
-        print("\n🛡️ [FIRMWARE OVERTAKE]: Local device hardware triggers detect total network loss...")
+        print("\n [FIRMWARE OVERTAKE]: Local device hardware triggers detect total network loss...")
         print("SUCCESS: Forced device wireless transponders into P2P Mesh Grid Mode...")
         # Simulating the path array text output
         optimal_aid_corridor = ["Central_Bank_Server", "Citizen_Phone_1", "Citizen_Phone_2", "Rescue_Truck_Alpha", "Parliament"]
-        print(f"🟢 CGOS RESILIENCE GRID ONLINE. Self-healed channel mapped: {optimal_aid_corridor}")
+        print(f" CGOS RESILIENCE GRID ONLINE. Self-healed channel mapped: {optimal_aid_corridor}")
         self.democratic_voting_integrity = 99.0
         print(f"🔒 [CRYPTOGRAPHIC LOGGING]: Immutable voting data secured at {self.democratic_voting_integrity}%.")
 
         # --- DAY 5 ---
-        print("\n📈 [BFS CENTRAL SERVER INTERVENTION]: Isolated software executes de-risking loops.")
+        print("\n [BFS CENTRAL SERVER INTERVENTION]: Isolated software executes de-risking loops.")
         capital_to_shield = self.central_bank_reserves['High_Risk_Equities'] * 0.85
         self.central_bank_reserves['High_Risk_Equities'] -= capital_to_shield
         self.central_bank_reserves['Gold_Reserves'] += (capital_to_shield * 0.50)
