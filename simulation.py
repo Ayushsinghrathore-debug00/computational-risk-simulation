@@ -49,7 +49,7 @@ class EngineeringSystemsRiskDashboard:
         optimal_aid_corridor = ["Central_Bank_Server", "Citizen_Phone_1", "Citizen_Phone_2", "Rescue_Truck_Alpha", "Parliament"]
         print(f" CGOS RESILIENCE GRID ONLINE. Self-healed channel mapped: {optimal_aid_corridor}")
         self.democratic_voting_integrity = 99.0
-        print(f"🔒 [CRYPTOGRAPHIC LOGGING]: Immutable voting data secured at {self.democratic_voting_integrity}%.")
+        print(f" [CRYPTOGRAPHIC LOGGING]: Immutable voting data secured at {self.democratic_voting_integrity}%.")
 
         # --- DAY 5 ---
         print("\n [BFS CENTRAL SERVER INTERVENTION]: Isolated software executes de-risking loops.")
